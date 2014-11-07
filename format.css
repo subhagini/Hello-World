@@ -1,0 +1,112 @@
+
+div#mainpage{
+	width: 700px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	border: 1px solid;
+	border-color:black;
+	}
+
+div#content{padding-left:15px;
+	    padding-right:15px;
+	    padding-bottom:15px;
+	}
+
+header {background-color:#EDEFF2;
+	text-align:center;
+	vertical-align: middle;
+	height: 30px;
+	} 
+
+input[type=button]   {border-radius: 10px; 
+			height: 35px;	
+			width: 140px;  
+			background-border: 2px solid; 
+			background-border-color:black; 
+			background-color:white;
+			}
+
+td {	height: 40px;
+	width:250px;
+	vertical-align:bottom;
+	}
+
+body	{font-family:serif, Times, "Times New Roman";
+	font-size:15px;
+	}
+	
+a {text-decoration:none;}
+
+progress
+{
+	/* turn of styling */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+ 
+	/* no default border in FF and Opera */
+	border: none;
+ 
+	/* Dimensions */
+	width: 80px;
+	height: 15px;
+	
+}
+ 
+/* progress bar in Firefox  */ 
+progress  {
+   background: white;
+   border:1px solid #333;
+}
+
+progress[value="0"]::-moz-progress-bar {
+    background-color: white;
+}
+progress[value="20"]::-moz-progress-bar {
+    background-color: red;
+}
+progress[value="40"]::-moz-progress-bar {
+    background-color: green;
+}
+progress[value="60"]::-moz-progress-bar {
+    background-color: green;
+}
+progress[value="100"]::-moz-progress-bar {
+    background-color: green;
+}
+progress:not([value])::-moz-progress-bar {
+  background:white;
+}
+
+ 
+/* progress bar in chrome and safari */
+progress::-webkit-progress-bar {
+    background: white;
+}
+
+progress[value="0"]::-webkit-progress-value {
+    background: white;
+}
+progress[value="20"]::-webkit-progress-value {
+    background: red;
+}
+
+progress[value="60"]::-webkit-progress-value {
+    background: green;
+}
+
+progress[value="40"]::-webkit-progress-value {
+    background: green;
+}
+
+progress[value="100"]::-webkit-progress-value {
+    background: green;
+}
+progress:not([value])::-webkit-progress-bar {
+  background:white;
+}
+
+#div1
+{float:left; width:100px; height:120px; margin:10px;padding:10px;border:1px solid #aaaaaa;}
+#div2
+{float:left; width:100px; height:120px; margin:10px;padding:10px;border:1px solid #aaaaaa;}
